@@ -4,11 +4,11 @@
     <!-- Meta tags and title -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>About Us</title>
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
 
     <!-- Scripts -->
     <script defer src="main.js"></script>
@@ -16,29 +16,33 @@
 
   <body>
     <!-- Navigation -->
-    <nav>
-      <div class="container-md custom-container">
-       <img src="images/logo_sausage.png" alt="logo" class="img-fluid" /> 
-        <div class="row">
-          <div class="links">
+    <nav class="navbar-custom">
+      <div class="container-md d-flex justify-content-between align-items-center">
+        <img src="images/logo_sausage.png" alt="logo" class="logo" />
+        <div class="links">
           <a href="index.html">Home</a>
           <a href="other.html">About Us</a>
           <a href="order.html">Order Now</a>
-          </div>
         </div>
       </div>
     </nav>
-   
 
     <!-- Main content section -->
-    <section>
-      <div class="about">
-        <p>dkja;fjs;alfj</p>
+    <section class="container my-4">
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <p>dkja;fjs;alfj</p>
+        </div>
+        <div class="col-md-6 mb-4">
+          <p>Put your second column content here (e.g., image, text, etc.).</p>
+        </div>
       </div>
     </section>
 
     <!-- Footer -->
-    <footer></footer>
+    <footer class="footer-custom">
+      <p>© 2025 Sausage Co.</p>
+    </footer>
 
     <!-- Bootstrap scripts -->
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>

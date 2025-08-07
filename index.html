@@ -7,8 +7,8 @@
     <title>Document</title>
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 
     <!-- Scripts -->
     <script defer src="main.js"></script>
@@ -16,27 +16,34 @@
 
   <body>
     <!-- Navigation -->
-    <nav>
-      <div class="container-md custom-container">
-       <img src="images/logo_sausage.png" alt="logo" class="img-fluid"> 
-          <div class="links">
-          <a href="about.html">About Us</a>
-          <a href="order.html">Order Now</a>
-          <a href="other.html">Other Sausages</a>
-          </div>
+    <nav class="bg-light py-3 mb-4">
+      <div class="container-md d-flex justify-content-between align-items-center">
+        <img src="images/logo_sausage.png" alt="logo" class="img-fluid" style="height: 50px;">
+        <div class="links">
+          <a href="about.html" class="mx-2">About Us</a>
+          <a href="order.html" class="mx-2">Order Now</a>
+          <a href="other.html" class="mx-2">Other Sausages</a>
+        </div>
       </div>
     </nav>
 
     <!-- Main content section -->
-    <section>
-      <div class="order">
-        <a href="order.html"> <img src="images/Upscaled_order.png"  alt="order" class="img-fluid"></a>
+    <section class="container">
+      <div class="row">
+        <div class="col-md-6 text-center mb-4">
+          <a href="order.html">
+            <img src="images/Upscaled_order.png" alt="order" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-6 text-center mb-4">
+          <p>Put your other column content here, like text or images.</p>
+        </div>
       </div>
     </section>
 
     <!-- Footer -->
-    <footer> 
-      <p>ssss</p>
+    <footer class="bg-dark text-white text-center py-3 mt-4"> 
+      <p>© 2025 Sausage Co.</p>
     </footer>
 
     <!-- Bootstrap scripts -->
