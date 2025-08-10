@@ -1,38 +1,64 @@
-/* style.css */
-
-/* Logo */
-.logo {
-  height: 50px;
+/* Global Layout */
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding-bottom: 100px;
 }
 
-/* Navigation bar */
-.navbar-custom {
-  background-color: #f8f9fa;
-  padding: 1rem 0;
+/* Container */
+.container {
+  background-color: #daa520;
+  border-radius: 1.5rem;
+  padding: 1rem;
+}
+
+/* Logo Styling */
+.img-fluid {
+  max-height: 80px;
+  object-fit: contain;
+}
+
+/* Navigation Buttons */
+nav .btn {
+  margin-right: 0.5rem;
+  color: #7F00FF;
+  font-weight: bolder;
+}
+
+/* Buttons hover effect */
+nav .btn:hover {
+  text-decoration: underline;
+}
+
+/* Main content section centering */
+.main-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  padding: 2rem;
+}
+
+/* About text styling */
+.about {
+  font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #fff;
   margin-bottom: 2rem;
 }
 
-/* Links */
-.links a {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-  margin: 0 0.5rem;
-}
-
-.links a:hover {
-  color: #007bff;
-}
-
 /* Footer */
-.footer-custom {
-  background-color: #343a40;
-  color: white;
+.footer {
+  background-color: #daa520;
+  color: #000;
+  border-radius: 1.5rem 1.5rem 0 0;
   text-align: center;
-  padding: 1rem 0;
-  margin-top: 2rem;
-}
-
-.footer-custom p {
-  margin: 0;
+  font-size: 1.2rem;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
 }

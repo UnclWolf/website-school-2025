@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Meta tags and title -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
 
     <!-- Scripts -->
     <script defer src="main.js"></script>
@@ -16,27 +17,35 @@
 
   <body>
     <!-- Navigation -->
-    <nav>
-      <div class="container-md custom-container">
-       <img src="images/logo_sausage.png" alt="logo" class="img-fluid" /> 
-        <div class="row">
-          <div class="links">
-          <a href="index.html">Home</a>
-          <a href="about.html">About Us</a>
-          <a href="order.html">Order Now</a>
+    <nav class="bg-light py-3">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Logo -->
+          <div class="col-md-4 text-center text-md-start">
+            <img src="images/logo_sausage.png" alt="logo" class="img-fluid"/>
+          </div>
+
+          <!-- Navigation Buttons  -->
+          <div class="col-md-8 text-md-start">
+            <div class="d-flex justify-content-start gap-3">
+              <a href="index.html" class="btn btn-outline-primary">Home</a>
+              <a href="order.html" class="btn btn-outline-success">Order Now</a>
+              <a href="about.html" class="btn btn-outline-info">About Us</a>
+            </div>
           </div>
         </div>
       </div>
     </nav>
-   
 
-    <!-- Main content section -->
-    <section></section>
+    <!-- Main section -->
+    
 
     <!-- Footer -->
-    <footer></footer>
+    <footer class="bg-dark text-white text-center py-3 footer">
+      <p class="mb-0"> lorem ipsum</p>
+    </footer>
 
-    <!-- Bootstrap scripts -->
+    <!-- Bootstrap Scripts -->
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
   </body>
