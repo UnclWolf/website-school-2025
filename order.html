@@ -21,11 +21,13 @@
           <div class="col-md-4 text-center text-md-start">
             <img src="images/logo_sausage.png" alt="logo" class="img-fluid"/>
           </div>
-          <!-- Left-aligned Buttons -->
+
+          <!-- Navigation Buttons -->
           <div class="col-md-8 text-md-start">
             <div class="d-flex justify-content-start gap-3">
               <a href="index.html" class="btn btn-outline-primary">Home</a>
               <a href="order.html" class="btn btn-outline-success">Order Now</a>
+              <a href="about.html" class="btn btn-outline-info">About Us</a>
             </div>
           </div>
         </div>
@@ -35,16 +37,26 @@
     <!-- Main Content -->
     <section class="main-section">
       <div class="container text-center">
-        <h1 class="about">lorem ipsum</h1> <!-- add information about the sausage-->
+        <h1 class="about">lorem ipsum</h1>
         <p class="info">
-          lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
+          lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
         </p>
+
+        <!-- Email Button -->
+        <button id="emailButton" class="btn btn-primary mt-3">Send Email</button>
+
+        <!-- Inline Script for Email Button -->
+        <script>
+          document.getElementById('emailButton').addEventListener('click', function() {
+            window.location.href = 'mailto:recipient@example.com?subject=Hello&body=This is the email body.';
+          });
+        </script>
       </div>
     </section>
 
     <!-- Footer -->
     <footer class="bg-dark text-white text-center py-3 footer">
-      <p class="mb-0"> lorem ipsum</p>
+      <p class="mb-0">lorem ipsum</p>
     </footer>
 
     <!-- Bootstrap Scripts -->
