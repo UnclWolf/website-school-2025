@@ -6,43 +6,17 @@ body {
   padding-bottom: 100px;
 }
 
-/* Container */
-.container {
-  background-color: #daa520;
-  border-radius: 1.5rem;
-  padding: 1rem;
+/* Navigation bar */
+.navbar-custom {
+  background-color: #f8f9fa;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
 }
 
-/* Logo Styling */
-.img-fluid {
-  max-height: 80px;
-  object-fit: contain;
-}
-
-/* Navigation Buttons */
-nav .btn {
-  margin-right: 0.5rem;
-  color: #7F00FF;
-  font-weight: bolder;
-}
-
-/* Buttons hover effect */
-nav .btn:hover {
-  text-decoration: underline;
-}
-
-/* Main content section centering */
-.main-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 60vh;
-  padding: 2rem;
-}
-
-/* About text styling */
-.about {
-  font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+/* Links */
+.links a {
+  text-decoration: none;
+  color: #333;
   font-weight: bold;
   font-size: 2.5rem;
   color: #fff;
