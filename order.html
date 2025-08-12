@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
 
-    <!-- Scripts -->
-    <script defer src="main.js"></script>
-  </head>
-
-  <body>
-    <!-- Navigation -->
-    <nav class="bg-light py-3">
+  <!-- Scripts -->
+  <script defer src="main.js">
+    
+  </script>
+</head>
+<body>
+  <!-- Navigation -->
+<nav class="bg-light py-3">
       <div class="container">
         <div class="row align-items-center">
           <!-- Logo -->
@@ -22,11 +23,10 @@
             <img src="images/logo_sausage.png" alt="logo" class="img-fluid"/>
           </div>
 
-          <!-- Navigation Buttons -->
+          <!-- Navigation Buttons Left-Aligned -->
           <div class="col-md-8 text-md-start">
             <div class="d-flex justify-content-start gap-3">
               <a href="index.html" class="btn btn-outline-primary">Home</a>
-              <a href="order.html" class="btn btn-outline-success">Order Now</a>
               <a href="about.html" class="btn btn-outline-info">About Us</a>
             </div>
           </div>
@@ -34,33 +34,23 @@
       </div>
     </nav>
 
-    <!-- Main Content -->
-    <section class="main-section">
-      <div class="container text-center">
-        <h1 class="about">lorem ipsum</h1>
-        <p class="info">
-          lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-        </p>
+  <!-- Main Section -->
+  <section class="main-section">
+    <div class="container text-center">
+      <h1 class="about">Click The Button Below To Order</h1>
+      <a href="mailto:orders@example.com?subject=Chorizo%20Order&body=Hello,%0D%0A%0D%0AI would like to order 1kg of chorizo sausage for $40.%0D%0A%0D%0AThank you!"  class="btn btn-outline- mt-3">  Order via Gmail</a>
+      <p class="info">
+        Chorizo is a flavorful, spicy sausage, most notably known for its deep red color and smoky flavor imparted by paprika. It is a staple in many cuisines, particularly in Spanish and Mexican dishes. Chorizo can be made from pork, beef, or a combination of meats, and is often seasoned with garlic, cumin, and other spices. It can be enjoyed fresh or cured, and is commonly used in tacos, paellas, and breakfast dishes. Whether grilled, sautéed, or crumbled into dishes, chorizo adds a robust flavor that enhances any meal. The price is $40 per kilogram, and it is available for order in 1 kg increments.
+      </p>
+    </div>
+  </section>
 
-        <!-- Email Button -->
-        <button id="emailButton" class="btn btn-primary mt-3">Send Email</button>
+  <!-- Footer -->
+  <footer class="footer">
+    <p class="mb-0">lorem ipsum</p>
+  </footer>
 
-        <!-- Inline Script for Email Button -->
-        <script>
-          document.getElementById('emailButton').addEventListener('click', function() {
-            window.location.href = 'mailto:recipient@example.com?subject=Hello&body=This is the email body.';
-          });
-        </script>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-dark text-white text-center py-3 footer">
-      <p class="mb-0">lorem ipsum</p>
-    </footer>
-
-    <!-- Bootstrap Scripts -->
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-    <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
-  </body>
+  <!-- Bootstrap Scripts -->
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
 </html>
