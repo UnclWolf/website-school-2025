@@ -22,11 +22,9 @@ body {
 /* Navigation Buttons */
 nav .btn {
   margin-right: 0.5rem;
+  font-weight: bold;
 }
 
-.btn btn-outline- mt-3 {
-  
-}
 
 /* Buttons hover effect */
 nav .btn:hover {
