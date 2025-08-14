@@ -1,7 +1,7 @@
 /* Global Layout */
 body {
   background-color: black;
-  color: white;
+  color: gray;
   margin: 0;
   padding-bottom: 100px;
 }
@@ -15,7 +15,7 @@ body {
 
 /* Logo Styling */
 .img-fluid {
-  max-height: 80px;
+  max-height: 200px;
   object-fit: contain;
 }
 
@@ -23,8 +23,15 @@ body {
 nav .btn {
   margin-right: 0.5rem;
   font-weight: bold;
+  color: blue;
+  font-size: 2.0rem;
 }
 
+.btn-gmail {
+  color: blue;
+  text-decoration: underline;
+  font-weight: bold;
+}
 
 /* Buttons hover effect */
 nav .btn:hover {
