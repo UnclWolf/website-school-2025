@@ -82,4 +82,34 @@ nav .btn:hover {
   width: 100%;
   z-index: 100;
 }
+/* Responsive Design */
+/* Medium screens (tablets, 576px–991px) */
+@media (min-width: 576px) and (max-width: 991.98px) {
+  nav .btn {
+    font-size: 1.5rem;
+  }
+
+  .about {
+    font-size: 2rem;
+  }
+
+  .sausage-image img {
+    max-height: 320px;
+  }
+}
+
+/* Large screens (desktops, ≥992px) */
+@media (min-width: 992px) {
+  nav .btn {
+    font-size: 2rem;
+  }
+
+  .about {
+    font-size: 2.5rem;
+  }
+
+  .sausage-image img {
+    max-height: 400px;
+  }
+}
 
