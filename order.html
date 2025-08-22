@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Stylesheets -->
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <!-- Document Title (required inside <head>) -->
+    <title>Sausage Co.</title>
 
-  <!-- Scripts -->
-  <script defer src="main.js">
-    
-  </script>
-</head>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <!-- Scripts -->
+    <script defer src="main.js"></script>
+  </head>
 <body>
   <!-- Navigation -->
 <nav class="bg-light py-3">
@@ -20,7 +21,7 @@
         <div class="row align-items-center">
           <!-- Logo -->
           <div class="col-md-4 text-center text-md-start">
-            <img src="images/logo_sausage.png" alt="logo" class="img-fluid"/>
+            <img src="images/logo_sausage.png" alt="logo" class="img-fluid">
           </div>
 
           <!-- Navigation Buttons Left-Aligned -->
@@ -36,26 +37,23 @@
 
   <!-- Main Section -->
   <section class="main-section">
+    <div class="sausage-image">
+      <img src="images/chorizo-grilled.png" alt="sausages on a plate" class="img-fluid">
+    </div>
     <div class="container text-center">
       <h1 class="about">Click The Button Below To Order</h1>
-      <a href="mailto:orders@example.com?subject=Chorizo%20Order&body=Hello,   1 kg of chorizo sausage costs $40. Please specify the amount you would like to order:
-       Provide your shipping address to confirm: .We will bill you at a later date, Thank you!"  class="btn-gmail">  Click To Order</a>
+      <a href="mailto:orders@example.com?subject=Chorizo%20Order&body=Hello,%0A1%20kg%20of%20chorizo%20sausage%20costs%20$40.%20Please%20specify%20the%20amount%20you%20would%20like%20to%20order:%0AProvide%20your%20shipping%20address%20to%20confirm.%0AWe%20will%20bill%20you%20at%20a%20later%20date.%0AThank%20you!" class="btn-gmail"> Click here to order</a>
+
       <p class="info">
         Chorizo is a flavorful, spicy sausage, most notably known for its deep red color and smoky flavor imparted by paprika. It is a staple in many cuisines, particularly in Spanish and Mexican dishes. Chorizo can be made from pork, beef, or a combination of meats, and is often seasoned with garlic, cumin, and other spices. It can be enjoyed fresh or cured, and is commonly used in tacos, paellas, and breakfast dishes. Whether grilled, sautéed, or crumbled into dishes, chorizo adds a robust flavor that enhances any meal. The price is $40 per kilogram, and it is available for order in 1 kg increments.
       </p>
     </div>
-    <div class="video">
-      <video class="img-fluid" controls>
-        <source src="videos/Sausagevid.mp4" type="video/mp4"> 
-        <!--wont play videos-->
-        Your browser does not support the video tag.
-      </video>
-    </div>
+
   </section>
 
   <!-- Footer -->
   <footer class="footer">
-    <p class="mb-0">Video by Taryn Elliott: https://www.pexels.com/video/a-person-cooking-sausage-6951464/</p>
+    <a href="https://www.freepik.com/free-photo/delicious-chorizo-sausage-grilled_14480014.htm">Image by freepik</a>
   </footer>
 
   <!-- Bootstrap Scripts -->
